@@ -1,0 +1,131 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="9XM JHAKAAS" tvg-name="9XM JHAKAAS" title="9XM JHAKAAS" group-title="TV",9XM JHAKAAS
+https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
+#EXTINF:-1 tvg-id="9X JALWA" tvg-name="9X JALWA" title="9X JALWA" group-title="TV",9X JALWA
+https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8
+#EXTINF:-1 tvg-id="9X TASHAN" tvg-name="9X TASHAN" title="9X TASHAN" group-title="TV",9X TASHAN
+https://amg01281-9xmediapvtltd-9xtashan-samsungin-xz1sd.amagi.tv/playlist/amg01281-9xmediapvtltd-9xtashan-samsungin/playlist.m3u8
+#EXTINF:-1 tvg-id="&TV" tvg-name="&TV" title="&TV" group-title="TV",&TV
+http://202.70.146.135:8000/play/a06c/index.m3u8
+#EXTINF:-1 tvg-id="ABN TV" tvg-name="ABN TV" title="ABN TV" group-title="TV",ABN TV
+https://mediaserver.abnvideos.com/streams/abntvindia.m3u8
+#EXTINF:-1 tvg-id="ABP MAJHA" tvg-name="ABP MAJHA" title="ABP MAJHA" group-title="TV",ABP MAJHA
+https://mumbai-edge.smartplaytv.in/ABPMajha/index.m3u8
+#EXTINF:-1 tvg-id="ANIMAX" tvg-name="ANIMAX" title="ANIMAX" group-title="TV",ANIMAX
+https://amg02159-kcglobal-amg02159c1-samsung-in-521.playouts.now.amagi.tv/playlist/amg02159-kcglobal-animax-samsungin/playlist.m3u8
+#EXTINF:-1 tvg-id="ANJAN HD" tvg-name="ANJAN HD" title="ANJAN HD" group-title="TV",ANJAN HD
+https://anjan.vstream.online/anjanorg/ngrp:anjan_hdall/playlist.m3u8
+#EXTINF:-1 tvg-id="BALLE BALLE" tvg-name="BALLE BALLE" title="BALLE BALLE" group-title="TV",BALLE BALLE
+https://mcncdndigital.com/balleballetv/index.m3u8
+#EXTINF:-1 tvg-id="COLORS GUJARATI" tvg-name="COLORS GUJARATI" title="COLORS GUJARATI" group-title="TV",COLORS GUJARATI
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ColorsGujarati.m3u8
+#EXTINF:-1 tvg-id="COLORS MARATHI" tvg-name="COLORS MARATHI" title="COLORS MARATHI" group-title="TV",COLORS MARATHI
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsmarathihd.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="COLORS SUPER" tvg-name="COLORS SUPER" title="COLORS SUPER" group-title="TV",COLORS SUPER
+https://d1rc86nwwc9fag.cloudfront.net/260723/smil:colorssuper1.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
+#EXTINF:-1 tvg-id="EPIC KIDS" tvg-name="EPIC KIDS" title="EPIC KIDS" group-title="TV",EPIC KIDS
+https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t8lqe1o99pszu/playlist.m3u8
+#EXTINF:-1 tvg-id="EPIC TV" tvg-name="EPIC TV" title="EPIC TV" group-title="TV",EPIC TV
+https://cc-czbq30x55knit.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-czbq30x55knit/DIYC/PMSL/IN10/Epic_TV_IN_B/Epic_TV_IN_B.m3u8
+#EXTINF:-1 tvg-id="FOOD FOOD" tvg-name="FOOD FOOD" title="FOOD FOOD" group-title="TV",FOOD FOOD
+https://mumt03.tangotv.in/Dsly5z3HFOODFOOD/index.m3u8
+#EXTINF:-1 tvg-id="HI DOSTI" tvg-name="HI DOSTI" title="HI DOSTI" group-title="TV",HI DOSTI
+https://cdn.pishow.tv/ott/live/224/master.m3u8
+#EXTINF:-1 tvg-id="HISTORY CHANNEL" tvg-name="HISTORY CHANNEL" title="HISTORY CHANNEL" group-title="TV",HISTORY CHANNEL
+https://amg01448-amg01448c16-samsung-in-3495.playouts.now.amagi.tv/playlist/amg01448-samsungindia-historychannelenglish-samsungin/playlist.m3u8
+#EXTINF:-1 tvg-id="HUNGAMA" tvg-name="HUNGAMA" title="HUNGAMA" group-title="TV",HUNGAMA
+http://103.185.24.134:3001/HUNGAMA/index.m3u8
+#EXTINF:-1 tvg-id="LIFESTYLE" tvg-name="LIFESTYLE" title="LIFESTYLE" group-title="TV",LIFESTYLE
+https://amg00861-terninternation-lifestyle-samsungau-kdlyy.amagi.tv/playlist/amg00861-terninternation-lifestyle-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-id="INWILD" tvg-name="INWILD" title="INWILD" group-title="TV",INWILD
+https://amg00861-terninternation-inwild-samsunguk-w5wic.amagi.tv/playlist/amg00861-terninternation-inwild-samsunguk/playlist.m3u8
+#EXTINF:-1 tvg-id="INWONDER" tvg-name="INWONDER" title="INWONDER" group-title="TV",INWONDER
+https://amg00861-terninternation-inwonder-samsungau-1k63k.amagi.tv/playlist/amg00861-terninternation-inwonder-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-id="KADAK" tvg-name="KADAK" title="KADAK" group-title="TV",KADAK
+https://n18syndication.akamaized.net/bpk-tv/Kadak_NW18_MOB/output01/master.m3u8
+#EXTINF:-1 tvg-id="ME BEAN" tvg-name="ME BEAN" title="ME BEAN" group-title="TV",ME BEAN
+https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="MUSIC INDIA" tvg-name="MUSIC INDIA" title="MUSIC INDIA" group-title="TV",MUSIC INDIA
+https://streams.tangotv.in/MUSICINDIA/ORIGIN/index.m3u8
+#EXTINF:-1 tvg-id="NICK JR" tvg-name="NICK JR" title="NICK JR" group-title="TV",NICK JR
+http://103.185.24.134:3001/NICK-JR/index.m3u8
+#EXTINF:-1 tvg-id="NICK" tvg-name="NICK" title="NICK" group-title="TV",NICK
+http://103.185.24.134:3001/NICK/index.m3u8
+#EXTINF:-1 tvg-id="PITAARA" tvg-name="PITAARA" title="PITAARA" group-title="TV",PITAARA
+https://vg-pitaaratvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-583798/playlist.m3u8
+#EXTINF:-1 tvg-id="MARATHI BANA" tvg-name="MARATHI BANA" title="MARATHI BANA" group-title="TV",MARATHI BANA
+https://airtelapp.shemaroo.com/marathibana/smil:marathibanaadp.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SONIC" tvg-name="SONIC" title="SONIC" group-title="TV",SONIC
+http://103.185.24.134:3001/SONIC/index.m3u8
+#EXTINF:-1 tvg-id="SONY HD" tvg-name="SONY HD" title="SONY HD" group-title="TV",SONY HD
+http://38.96.178.205/SONYHD/index.m3u8
+#EXTINF:-1 tvg-id="SSIN" tvg-name="SSIN" title="SSIN" group-title="TV",SSIN
+https://cc-yw7ztecy8do3q.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yw7ztecy8do3q/SS_IN.m3u8
+#EXTINF:-1 tvg-id="CHANNEL" tvg-name="CHANNEL" title="CHANNEL" group-title="TV",CHANNEL
+http://cdn98.com/play/live.php?mac=00:1A:79:99:54:11&stream=225805&extension=ts&play_token=o1cczsG9wV
+#EXTINF:-1 tvg-id="STAR MAA" tvg-name="STAR MAA" title="STAR MAA" group-title="TV",STAR MAA
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starmaa1.smil/chunklist_b2628000.m3u8
+#EXTINF:-1 tvg-id="STAR MAA MOVIES" tvg-name="STAR MAA MOVIES" title="STAR MAA MOVIES" group-title="TV",STAR MAA MOVIES
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:maamovies.smil/chunklist_b2628000.m3u8
+#EXTINF:-1 tvg-id="STAR PRAVAH" tvg-name="STAR PRAVAH" title="STAR PRAVAH" group-title="TV",STAR PRAVAH
+https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starpravah.smil/chunklist_b1928000.m3u8
+#EXTINF:-1 tvg-id="STEELBIRD MUSIC TV" tvg-name="STEELBIRD MUSIC TV" title="STEELBIRD MUSIC TV" group-title="TV",STEELBIRD MUSIC TV
+https://cdn2.in/SteelbirdMusicTVhls/live.m3u8
+#EXTINF:-1 tvg-id="STINGRAY MUSIC" tvg-name="STINGRAY MUSIC" title="STINGRAY MUSIC" group-title="TV",STINGRAY MUSIC
+https://lotus.stingray.com/manifest/ose-101ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="STINGRAY MUSIC 2" tvg-name="STINGRAY MUSIC 2" title="STINGRAY MUSIC 2" group-title="TV",STINGRAY MUSIC 2
+https://lotus.stingray.com/manifest/ose-137ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="STINGRAY MUSIC 3" tvg-name="STINGRAY MUSIC 3" title="STINGRAY MUSIC 3" group-title="TV",STINGRAY MUSIC 3
+https://lotus.stingray.com/manifest/naturescape-a003-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="STINGRAY MUSIC 4" tvg-name="STINGRAY MUSIC 4" title="STINGRAY MUSIC 4" group-title="TV",STINGRAY MUSIC 4
+https://lotus.stingray.com/manifest/ose-122ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="STINGRAY MUSIC 5" tvg-name="STINGRAY MUSIC 5" title="STINGRAY MUSIC 5" group-title="TV",STINGRAY MUSIC 5
+https://lotus.stingray.com/manifest/ose-317ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="SUPER HUNGAMA" tvg-name="SUPER HUNGAMA" title="SUPER HUNGAMA" group-title="TV",SUPER HUNGAMA
+http://103.185.24.134:3001/SUPER-HUNGAMA/index.m3u8
+#EXTINF:-1 tvg-id="JUNGLE BOOK" tvg-name="JUNGLE BOOK" title="JUNGLE BOOK" group-title="TV",JUNGLE BOOK
+https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8
+#EXTINF:-1 tvg-id="THE MOVIE CLUB" tvg-name="THE MOVIE CLUB" title="THE MOVIE CLUB" group-title="TV",THE MOVIE CLUB
+https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-mp2ar4ca425xo.m3u8
+#EXTINF:-1 tvg-id="PET COLLECTIVE" tvg-name="PET COLLECTIVE" title="PET COLLECTIVE" group-title="TV",PET COLLECTIVE
+https://the-pet-collective-international-in.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="CHANNEL" tvg-name="CHANNEL" title="CHANNEL" group-title="TV",CHANNEL
+https://deltatesttatasky.akamaized.net/out/i/968284.m3u8
+#EXTINF:-1 tvg-id="TANGO TV" tvg-name="TANGO TV" title="TANGO TV" group-title="TV",TANGO TV
+https://mumt01.tangotv.in/O5aw8Zn3VANITHA/index.m3u8
+#EXTINF:-1 tvg-id="WEATHERSPY" tvg-name="WEATHERSPY" title="WEATHERSPY" group-title="TV",WEATHERSPY
+https://jukin-weatherspy-2-in.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="WOW TV" tvg-name="WOW TV" title="WOW TV" group-title="TV",WOW TV
+https://yuppparoriglin.akamaized.net/181224/smil:wowkidzhindi.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
+#EXTINF:-1 tvg-id="YRF" tvg-name="YRF" title="YRF" group-title="TV",YRF
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="ZB CARTOON" tvg-name="ZB CARTOON" title="ZB CARTOON" group-title="TV",ZB CARTOON
+https://server.zillarbarta.com/zbcatun/video.m3u8
+#EXTINF:-1 tvg-id="ZEE 24 TAAS" tvg-name="ZEE 24 TAAS" title="ZEE 24 TAAS" group-title="TV",ZEE 24 TAAS
+https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8
+#EXTINF:-1 tvg-id="ZEE BANGLA HD" tvg-name="ZEE BANGLA HD" title="ZEE BANGLA HD" group-title="TV",ZEE BANGLA HD
+https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8
+#EXTINF:-1 tvg-id="ZEE BUSINESS" tvg-name="ZEE BUSINESS" title="ZEE BUSINESS" group-title="TV",ZEE BUSINESS
+https://dwby15d04agvq.cloudfront.net/index_5.m3u8
+#EXTINF:-1 tvg-id="ZEE CINE CLASSIC" tvg-name="ZEE CINE CLASSIC" title="ZEE CINE CLASSIC" group-title="TV",ZEE CINE CLASSIC
+https://amg00862-amg00862c8-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c8-amgplt0173/playlist.m3u8
+#EXTINF:-1 tvg-id="ZEE CINEMA" tvg-name="ZEE CINEMA" title="ZEE CINEMA" group-title="TV",ZEE CINEMA
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/NGCHD/default/NGCHD.m3u8
+#EXTINF:-1 tvg-id="ZEE CLASSIC" tvg-name="ZEE CLASSIC" title="ZEE CLASSIC" group-title="TV",ZEE CLASSIC
+http://107.167.16.138/zeeclassic/index.m3u8?token=test
+#EXTINF:-1 tvg-id="CHANNEL" tvg-name="CHANNEL" title="CHANNEL" group-title="TV",CHANNEL
+http://107.167.16.138/zeeclassic/index.m3u8?token=test
+#EXTINF:-1 tvg-id="ZEE COMEDY" tvg-name="ZEE COMEDY" title="ZEE COMEDY" group-title="TV",ZEE COMEDY
+https://amg00862-amg00862c5-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c5-amgplt0173/playlist.m3u8
+#EXTINF:-1 tvg-id="ZEE DIL SE" tvg-name="ZEE DIL SE" title="ZEE DIL SE" group-title="TV",ZEE DIL SE
+https://amg00862-amg00862c6-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c6-amgplt0173/playlist.m3u8
+#EXTINF:-1 tvg-id="Z HORROR NIGHT" tvg-name="Z HORROR NIGHT" title="Z HORROR NIGHT" group-title="TV",Z HORROR NIGHT
+https://amg00862-amg00862c7-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c7-amgplt0173/playlist.m3u8
+#EXTINF:-1 tvg-id="ZEE KANNADA HD" tvg-name="ZEE KANNADA HD" title="ZEE KANNADA HD" group-title="TV",ZEE KANNADA HD
+https://yuppnimresmum.akamaized.net/28072023/smil:zeekannadahd.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
+#EXTINF:-1 tvg-id="ZEE MARATHI" tvg-name="ZEE MARATHI" title="ZEE MARATHI" group-title="TV",ZEE MARATHI
+https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeMarathiHD.m3u8
+#EXTINF:-1 tvg-id="ZEE SOUTH FLIX" tvg-name="ZEE SOUTH FLIX" title="ZEE SOUTH FLIX" group-title="TV",ZEE SOUTH FLIX
+https://amg00862-amg00862c9-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c9-amgplt0173/playlist.m3u8
+#EXTINF:-1 tvg-id="ZEE TALKIES" tvg-name="ZEE TALKIES" title="ZEE TALKIES" group-title="TV",ZEE TALKIES
+http://107.167.16.138/zeetalkies/index.m3u8?token=test
