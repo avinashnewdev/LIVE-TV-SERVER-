@@ -1,9 +1,8 @@
-name: Auto Gold Pull Shark (Batch Mode)
+name: Auto Gold Pull Shark (Zero Conflict)
 
 on:
   workflow_dispatch:
   schedule:
-    # Har 30 minute mein automatically chalega
     - cron: '*/30 * * * *'
 
 permissions:
@@ -17,6 +16,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.MY_PAT }}
           fetch-depth: 0
 
       - name: Configure Git User
@@ -24,25 +24,30 @@ jobs:
           git config --global user.name "avinashnewdev"
           git config --global user.email "234875233+avinashnewdev@users.noreply.github.com"
 
-      - name: Create and Merge 45 PRs Safely
+      - name: Create and Merge 25 PRs Safely
         env:
           GH_TOKEN: ${{ secrets.MY_PAT }}
         run: |
-          DEFAULT_BRANCH=$(git remote show origin | grep 'HEAD branch' | cut -d' ' -f5)
-          
-          for ((i=1; i<=45; i++)); do
-            BRANCH_NAME="gold-badge-$RANDOM-$i"
+          DEFAULT_BRANCH=$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')
+          git checkout "$DEFAULT_BRANCH"
+          git pull origin "$DEFAULT_BRANCH"
+          mkdir -p logs
+
+          for ((i=1; i<=25; i++)); do
+            UNIQUE_ID="$RANDOM-$i"
+            BRANCH_NAME="badge-$UNIQUE_ID"
+            
             git checkout -b "$BRANCH_NAME"
-            echo "PR $i at $(date)" >> log.txt
-            git add log.txt
-            git commit -m "Auto PR #$i"
+            echo "Unlocked PR $i at $(date)" > "logs/run-$UNIQUE_ID.txt"
+            git add "logs/run-$UNIQUE_ID.txt"
+            git commit -m "Badge PR #$i"
             git push -u origin "$BRANCH_NAME"
 
             PR_URL=$(gh pr create --title "Auto PR #$i" --body "Auto merge" --base "$DEFAULT_BRANCH" --head "$BRANCH_NAME")
-            gh pr merge "$PR_URL" --merge --delete-branch
+            sleep 3
+            gh pr merge "$PR_URL" --squash --delete-branch || true
 
             git checkout "$DEFAULT_BRANCH"
             git pull origin "$DEFAULT_BRANCH"
-            
             sleep 2
           done
