@@ -30,7 +30,7 @@ jobs:
 
       - name: Create and Merge Pull Requests (Pull Shark & YOLO)
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.MY_PAT }}
         run: |
           DEFAULT_BRANCH=$(git remote show origin | grep 'HEAD branch' | cut -d' ' -f5)
           COUNT=${{ github.event.inputs.pr_count }}
@@ -52,7 +52,7 @@ jobs:
 
       - name: Create and Close Issue Instantly (Quickdraw)
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.MY_PAT }}
         run: |
           ISSUE_URL=$(gh issue create --title "Quickdraw Badge Trigger" --body "Closing immediately to unlock Quickdraw achievement")
           gh issue close "$ISSUE_URL"
