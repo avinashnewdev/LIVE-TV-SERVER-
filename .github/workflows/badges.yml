@@ -3,8 +3,8 @@ name: Auto Gold Pull Shark (Batch Mode)
 on:
   workflow_dispatch:
   schedule:
-    # Har ghante ke 0 minute par automatically chalega (e.g., 12:00, 1:00, 2:00...)
-    - cron: '0 * * * *'
+    # Har 30 minute mein automatically chalega
+    - cron: '*/30 * * * *'
 
 permissions:
   contents: write
@@ -21,8 +21,8 @@ jobs:
 
       - name: Configure Git User
         run: |
-          git config --global user.name "${{ github.actor }}"
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --global user.name "avinashnewdev"
+          git config --global user.email "APNI_EMAIL@gmail.com"
 
       - name: Create and Merge 45 PRs Safely
         env:
@@ -44,6 +44,5 @@ jobs:
             git checkout "$DEFAULT_BRANCH"
             git pull origin "$DEFAULT_BRANCH"
             
-            # Har PR ke baad 2 second ka break taaki rate limit na aaye
             sleep 2
           done
