@@ -27,8 +27,8 @@ jobs:
       - name: Create and Merge 25 PRs Safely
         env:
           GH_TOKEN: ${{ secrets.MY_PAT }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
-          DEFAULT_BRANCH=$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')
           git checkout "$DEFAULT_BRANCH"
           git pull origin "$DEFAULT_BRANCH"
           mkdir -p logs
