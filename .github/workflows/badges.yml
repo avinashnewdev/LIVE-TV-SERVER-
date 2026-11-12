@@ -22,7 +22,7 @@ jobs:
       - name: Configure Git User
         run: |
           git config --global user.name "avinashnewdev"
-          git config --global user.email "APNI_EMAIL@gmail.com"
+          git config --global user.email "234875233+avinashnewdev@users.noreply.github.com"
 
       - name: Create and Merge 45 PRs Safely
         env:
