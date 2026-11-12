@@ -1,4 +1,4 @@
-# 🚀 LIVE-TV-SERVER: M3U TO XTREAM CONVERTOR TRICKS
+# 🚀 LIVE-TV-SERVER: M3U TO XTREAM CONVERTOR TRICK
 
 Yeh ek detailed, step-by-step guide hai jo aapko sikhayegi ki kaise aap apni simple `.m3u` file ko ek 24/7 chalne wale **Xtream Codes API Server** mein convert kar sakte hain. Is method se aapka server cloud par hamesha active rahega, chahe aapka PC band hi kyun na ho.
 
