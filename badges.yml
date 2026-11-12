@@ -1,0 +1,58 @@
+name: Auto Unlock GitHub Achievements
+
+on:
+  workflow_dispatch:
+    inputs:
+      pr_count:
+        description: 'Number of PRs to create and merge (e.g., 2 for Default Pull Shark, 16 for Bronze)'
+        required: true
+        default: '2'
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  unlock-badges:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git User
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+
+      - name: Create and Merge Pull Requests (Pull Shark & YOLO)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DEFAULT_BRANCH=$(git remote show origin | grep 'HEAD branch' | cut -d' ' -f5)
+          COUNT=${{ github.event.inputs.pr_count }}
+
+          for ((i=1; i<=COUNT; i++)); do
+            BRANCH_NAME="auto-badge-$RANDOM-$i"
+            git checkout -b "$BRANCH_NAME"
+            echo "Achievement unlocked run $i at $(date)" >> achievements-log.txt
+            git add achievements-log.txt
+            git commit -m "Auto commit #$i for GitHub Achievements"
+            git push -u origin "$BRANCH_NAME"
+
+            PR_URL=$(gh pr create --title "Auto PR #$i" --body "Automated PR to unlock Pull Shark and YOLO badges" --base "$DEFAULT_BRANCH" --head "$BRANCH_NAME")
+            gh pr merge "$PR_URL" --merge --delete-branch
+
+            git checkout "$DEFAULT_BRANCH"
+            git pull origin "$DEFAULT_BRANCH"
+          done
+
+      - name: Create and Close Issue Instantly (Quickdraw)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ISSUE_URL=$(gh issue create --title "Quickdraw Badge Trigger" --body "Closing immediately to unlock Quickdraw achievement")
+          gh issue close "$ISSUE_URL"
